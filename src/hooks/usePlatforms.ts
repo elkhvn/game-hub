@@ -1,9 +1,8 @@
-import useData from "./useData"
-import { Platform } from "./useGames"
+import platforms from "../data/platforms";
 
 
 const usePlatforms = () =>{
-    return useData<Platform>('/platforms/lists/parents');
+    return {data: platforms, isLoading: false, error: null};
 }
 
 

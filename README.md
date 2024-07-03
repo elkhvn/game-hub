@@ -12,6 +12,8 @@ This project serves as a learning tool for understanding the fundamentals of Rea
 - **React Library**: A JavaScript library for building user interfaces.
 - **Chakra UI**: A simple, modular, and accessible component library for React.
 - **Axios**: A promise-based HTTP client for the browser and Node.js.
+- **Vercel**: A platform for deploying and hosting web applications.
+
 
 ## Getting Started
 
@@ -56,8 +58,27 @@ To build the application for production:
 npm run build
 ```
 
-
 The production-ready files will be in the `dist` directory.
+
+### Deployment
+
+To deploy the application on Vercel:
+
+1. Sign up or log in to your [Vercel account](https://vercel.com/).
+    
+2. Install the Vercel CLI:
+    
+    
+    ```bash
+    npm install -g vercel
+    ```
+    
+3. Deploy the project:
+
+    ```bash
+    vercel
+    ```
+Follow the prompts to link your project to a Vercel account and configure the deployment settings.
 
 ## Features
 

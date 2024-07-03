@@ -29,7 +29,8 @@ Ensure you have the following installed on your local development environment:
 1. Clone the repository:
     
     ```bash
-    git clone https://github.com/elkhvn/game-hub cd game-hub
+    git clone https://github.com/elkhvn/game-hub
+    cd game-hub
     ```
     
 2. Install the dependencies:
